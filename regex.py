@@ -7,4 +7,4 @@ if __name__ == '__main__':
 
     n = int(sys.argv[1])
     dfa = Ean(n)
-    print(f'{str(dfa)}')
+    print(dfa.regular_expression())
