@@ -193,4 +193,4 @@ Every finite language is representable as a regular expression.
 
 [wikipedia:ean]: https://en.wikipedia.org/wiki/International_Article_Number
 [wikipedia:dfa]: https://en.wikipedia.org/wiki/Deterministic_finite_automaton
-[fsm2regex]: http://ivanzuzak.info/noam/webapps/fsm2regex/
+[fsm2regex]: http://ivanzuzak.info/noam/webapps/fsm_simulator/
