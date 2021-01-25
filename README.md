@@ -173,6 +173,8 @@ s10:8>s18
 s10:9>s19
 ```
 
+One can use [this simulator][fsm2regex] to play with the DFA.
+
 ### Regular Expression
 Generate a regex that accepts an EAN of length `n` with the following command
 
