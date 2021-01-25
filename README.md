@@ -173,8 +173,21 @@ s10:8>s18
 s10:9>s19
 ```
 
-## Regular Expression
-Eliminating states will convert DFA into a regular expression. Since our DFA is well structured eleminiating states can be done per level.
+### Regular Expression
+Generate a regex that accepts an EAN of length `n` with the following command
+
+```bash
+python3 regex.py <n>
+```
+
+For example a regex that accepts EANs of length 2 is
+
+```plain
+00|17|24|31|48|55|62|79|86|93
+```
+
+## Conclusion
+Every finite language is representable as a regular expression.
 
 [wikipedia:ean]: https://en.wikipedia.org/wiki/International_Article_Number
 [wikipedia:dfa]: https://en.wikipedia.org/wiki/Deterministic_finite_automaton
